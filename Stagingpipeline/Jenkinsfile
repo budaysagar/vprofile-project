@@ -15,7 +15,7 @@ pipeline {
 		NEXUS_GRP_REPO = 'vpro-maven-group'
         NEXUS_LOGIN = 'nexuslogin'
         SONARSERVER = 'sonarserver'
-        SONARSCANNER = 'sonarscanner'
+        SONARSCANNER = 'sonar6.2'
         registryCredential = 'ecr:us-east-1:awscreds'
         appRegistry = '009160029707.dkr.ecr.us-east-1.amazonaws.com/vproappimg'
         vprofileRegistry = "https://009160029707.dkr.ecr.us-east-1.amazonaws.com"
